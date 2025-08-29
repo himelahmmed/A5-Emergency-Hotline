@@ -1,7 +1,51 @@
+/*Shared Style start*/
+
 .display-flex{
     display: flex;
 }
+.color-white{
+    background-color: white;
+}
 
+.padding-10{
+    padding: 10px;
+}
+
+.icon{
+    justify-content: space-between;
+}
+.card-logo{
+    width: 20px;
+    height: 20px;
+    background-color: #FFE3E2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.department{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+.copy-btn{
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+button:active{
+    background-color: lightgreen;
+}
+.call-btn{
+    width: 50%;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Shared Style end*/
 .navbar{
     justify-content: space-between;
 }
@@ -41,6 +85,30 @@
     color: white;
 }
 
+/*Main style*/
+
 main{
     background-color: #F5FFF6;
+    gap: 20px;
+
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    gap: 20px;
+}
+
+.card-btn{
+    gap: 10px;
+
+}
+.emergency-section{
+    background-color: white;
+}
+
+
+.history-section{
+    width: 25%;
 }
